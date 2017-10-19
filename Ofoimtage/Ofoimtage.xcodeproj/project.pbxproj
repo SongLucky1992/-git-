@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515B995A1F7CF8EA00BBDBCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 515B99591F7CF8EA00BBDBCD /* AppDelegate.m */; };
+		515B995D1F7CF8EA00BBDBCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515B995C1F7CF8EA00BBDBCD /* ViewController.m */; };
+		515B99601F7CF8EA00BBDBCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515B995E1F7CF8EA00BBDBCD /* Main.storyboard */; };
+		515B99621F7CF8EA00BBDBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515B99611F7CF8EA00BBDBCD /* Assets.xcassets */; };
+		515B99651F7CF8EA00BBDBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515B99631F7CF8EA00BBDBCD /* LaunchScreen.storyboard */; };
+		515B99681F7CF8EA00BBDBCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 515B99671F7CF8EA00BBDBCD /* main.m */; };
+		51E43DC71F8B687900C180FA /* StudyMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E43DC61F8B687900C180FA /* StudyMapViewController.m */; };
+		FD1778FFDF7535A79C49D3F4 /* libPods-Ofoimtage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDB3C79380DDB14F3AEF1DE /* libPods-Ofoimtage.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E2798D245C772F0F00562B2 /* Pods-Ofoimtage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofoimtage.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ofoimtage/Pods-Ofoimtage.release.xcconfig"; sourceTree = "<group>"; };
+		515B99551F7CF8EA00BBDBCD /* Ofoimtage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ofoimtage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515B99581F7CF8EA00BBDBCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		515B99591F7CF8EA00BBDBCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		515B995B1F7CF8EA00BBDBCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		515B995C1F7CF8EA00BBDBCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		515B995F1F7CF8EA00BBDBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		515B99611F7CF8EA00BBDBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		515B99641F7CF8EA00BBDBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		515B99661F7CF8EA00BBDBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515B99671F7CF8EA00BBDBCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51E43DC51F8B687900C180FA /* StudyMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudyMapViewController.h; sourceTree = "<group>"; };
+		51E43DC61F8B687900C180FA /* StudyMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyMapViewController.m; sourceTree = "<group>"; };
+		51E43DC81F8B69A500C180FA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A9AD95009A8A69F2FD44EE1C /* Pods-Ofoimtage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofoimtage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ofoimtage/Pods-Ofoimtage.debug.xcconfig"; sourceTree = "<group>"; };
+		BEDB3C79380DDB14F3AEF1DE /* libPods-Ofoimtage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ofoimtage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515B99521F7CF8EA00BBDBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1778FFDF7535A79C49D3F4 /* libPods-Ofoimtage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3FAE4CC8FD77BBAFB97C7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEDB3C79380DDB14F3AEF1DE /* libPods-Ofoimtage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		515B994C1F7CF8EA00BBDBCD = {
+			isa = PBXGroup;
+			children = (
+				515B99571F7CF8EA00BBDBCD /* Ofoimtage */,
+				515B99561F7CF8EA00BBDBCD /* Products */,
+				779D627C21444DDCDE1DAD8A /* Pods */,
+				0A3FAE4CC8FD77BBAFB97C7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		515B99561F7CF8EA00BBDBCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515B99551F7CF8EA00BBDBCD /* Ofoimtage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515B99571F7CF8EA00BBDBCD /* Ofoimtage */ = {
+			isa = PBXGroup;
+			children = (
+				515B99581F7CF8EA00BBDBCD /* AppDelegate.h */,
+				515B99591F7CF8EA00BBDBCD /* AppDelegate.m */,
+				515B995B1F7CF8EA00BBDBCD /* ViewController.h */,
+				515B995C1F7CF8EA00BBDBCD /* ViewController.m */,
+				51E43DC51F8B687900C180FA /* StudyMapViewController.h */,
+				51E43DC61F8B687900C180FA /* StudyMapViewController.m */,
+				515B995E1F7CF8EA00BBDBCD /* Main.storyboard */,
+				515B99611F7CF8EA00BBDBCD /* Assets.xcassets */,
+				515B99631F7CF8EA00BBDBCD /* LaunchScreen.storyboard */,
+				515B99661F7CF8EA00BBDBCD /* Info.plist */,
+				515B99671F7CF8EA00BBDBCD /* main.m */,
+				51E43DC81F8B69A500C180FA /* PrefixHeader.pch */,
+			);
+			path = Ofoimtage;
+			sourceTree = "<group>";
+		};
+		779D627C21444DDCDE1DAD8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9AD95009A8A69F2FD44EE1C /* Pods-Ofoimtage.debug.xcconfig */,
+				4E2798D245C772F0F00562B2 /* Pods-Ofoimtage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515B99541F7CF8EA00BBDBCD /* Ofoimtage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515B996B1F7CF8EA00BBDBCD /* Build configuration list for PBXNativeTarget "Ofoimtage" */;
+			buildPhases = (
+				6DAA721D1F9B624FF3CEB3E3 /* [CP] Check Pods Manifest.lock */,
+				515B99511F7CF8EA00BBDBCD /* Sources */,
+				515B99521F7CF8EA00BBDBCD /* Frameworks */,
+				515B99531F7CF8EA00BBDBCD /* Resources */,
+				72074EB3257037C1878197B7 /* [CP] Embed Pods Frameworks */,
+				14E4F4368056CB3486E4CB0D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ofoimtage;
+			productName = Ofoimtage;
+			productReference = 515B99551F7CF8EA00BBDBCD /* Ofoimtage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515B994D1F7CF8EA00BBDBCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = imitage;
+				TargetAttributes = {
+					515B99541F7CF8EA00BBDBCD = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 515B99501F7CF8EA00BBDBCD /* Build configuration list for PBXProject "Ofoimtage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515B994C1F7CF8EA00BBDBCD;
+			productRefGroup = 515B99561F7CF8EA00BBDBCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515B99541F7CF8EA00BBDBCD /* Ofoimtage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515B99531F7CF8EA00BBDBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515B99651F7CF8EA00BBDBCD /* LaunchScreen.storyboard in Resources */,
+				515B99621F7CF8EA00BBDBCD /* Assets.xcassets in Resources */,
+				515B99601F7CF8EA00BBDBCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14E4F4368056CB3486E4CB0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ofoimtage/Pods-Ofoimtage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DAA721D1F9B624FF3CEB3E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72074EB3257037C1878197B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ofoimtage/Pods-Ofoimtage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515B99511F7CF8EA00BBDBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515B995D1F7CF8EA00BBDBCD /* ViewController.m in Sources */,
+				51E43DC71F8B687900C180FA /* StudyMapViewController.m in Sources */,
+				515B99681F7CF8EA00BBDBCD /* main.m in Sources */,
+				515B995A1F7CF8EA00BBDBCD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		515B995E1F7CF8EA00BBDBCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515B995F1F7CF8EA00BBDBCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		515B99631F7CF8EA00BBDBCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515B99641F7CF8EA00BBDBCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		515B99691F7CF8EA00BBDBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		515B996A1F7CF8EA00BBDBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515B996C1F7CF8EA00BBDBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9AD95009A8A69F2FD44EE1C /* Pods-Ofoimtage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T22KQXQ6GL;
+				GCC_PREFIX_HEADER = Ofoimtage/PrefixHeader.pch;
+				INFOPLIST_FILE = Ofoimtage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Song.StudyTest2.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		515B996D1F7CF8EA00BBDBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2798D245C772F0F00562B2 /* Pods-Ofoimtage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T22KQXQ6GL;
+				GCC_PREFIX_HEADER = Ofoimtage/PrefixHeader.pch;
+				INFOPLIST_FILE = Ofoimtage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Song.StudyTest2.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515B99501F7CF8EA00BBDBCD /* Build configuration list for PBXProject "Ofoimtage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515B99691F7CF8EA00BBDBCD /* Debug */,
+				515B996A1F7CF8EA00BBDBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515B996B1F7CF8EA00BBDBCD /* Build configuration list for PBXNativeTarget "Ofoimtage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515B996C1F7CF8EA00BBDBCD /* Debug */,
+				515B996D1F7CF8EA00BBDBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515B994D1F7CF8EA00BBDBCD /* Project object */;
+}
